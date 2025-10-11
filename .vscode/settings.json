@@ -3,7 +3,7 @@
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "/frontend/css"
+      "savePath": "/frontend/view/css"
     }
   ],
   "liveSassCompile.settings.excludeList": [
