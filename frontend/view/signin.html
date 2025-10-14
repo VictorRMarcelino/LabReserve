@@ -69,7 +69,9 @@
                     <span></span>
                 </div>
 
-                <div class="social-buttons">
+                <div class="social-buttons" id="g_id_onload" 
+                     data-client_id="489559615113-f0384dkkel2hss51lpall2q7pdq2g58l.apps.googleusercontent.com" 
+                     data-callback="handleCredentialResponse">
                     <button type="button" class="social-btn google-btn">
                         <i class='bx bxl-google'></i>
                         Google
@@ -86,5 +88,7 @@
     <div class="notification" id="notification"></div>
 
     <script src="../assets/js/signin.js"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="../assets/js/googleApi.js"></script>
 </body>
 </html>
