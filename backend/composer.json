@@ -1,0 +1,23 @@
+{
+    "name": "labreserve/backend",
+    "description": "Backend of LabReserve",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "app\\controller\\": "app/controller/",
+            "app\\model\\": "app/model/",
+            "database\\": "database/",
+            "enum\\": "enum/",
+            "routes\\": "routes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VictorRMarcelino",
+            "email": "httpsvictorramos@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
