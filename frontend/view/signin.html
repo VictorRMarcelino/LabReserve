@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabReserve - Criar Conta</title>
+    <link rel="stylesheet" href="../assets/css/signin.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="brand-section">
+                <div class="logo">
+                    <i class='bx bx-flask'></i>
+                    <span>LabReserve</span>
+                </div>
+                <h1>Comece agora</h1>
+                <p>Crie sua conta para fazer solicitações de reserva!</p>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <form class="signup-form" id="signupForm">
+                <div class="form-header">
+                    <h2>Criar conta</h2>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-field">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com">
+                        <i class='bx bx-envelope'></i>
+                        <span class="error-message"></span>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" placeholder="Sua senha">
+                        <i class='bx bx-lock-alt'></i>
+                        <span class="error-message"></span>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="confirmPassword">Confirmar senha</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Digite novamente">
+                        <i class='bx bx-lock'></i>
+                        <span class="error-message"></span>
+                    </div>
+                </div>
+
+                <div class="terms-section">
+                    <label class="checkbox">
+                        <input type="checkbox" id="agreeTerms">
+                        <span class="checkmark"></span>
+                        Concordo com os<a href="#">termos</a>e<a href="#">privacidade</a>
+                    </label>
+                    <span class="error-message" id="termsError"></span>
+                </div>
+
+                <button type="submit" class="signup-btn" id="signupBtn">
+                    <span class="btn-text">Criar minha conta</span>
+                    <div class="btn-loader">
+                        <div class="spinner"></div>
+                    </div>
+                </button>
+
+                <div class="divider">
+                    <span></span>
+                </div>
+
+                <div class="social-buttons">
+                    <button type="button" class="social-btn google-btn">
+                        <i class='bx bxl-google'></i>
+                        Google
+                    </button>
+                </div>
+
+                <div class="login-link">
+                    Já tem conta? <a href="login.html">Fazer login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="notification" id="notification"></div>
+
+    <script src="../assets/js/signin.js"></script>
+</body>
+</html>
